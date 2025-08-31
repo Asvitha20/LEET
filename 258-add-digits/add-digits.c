@@ -1,12 +1,9 @@
 int addDigits(int num) {
-    int ans=0;
-    while(num){
-        ans+=(num%10);
-        num=num/10;
+    int sum=0;
+    if(num==0){
+        return 0;
     }
-    if(ans<10){
-        return ans;
-    }
-    else
-    return addDigits(ans);
+   
+        return 1+(num-1)%9;
+    
 }
