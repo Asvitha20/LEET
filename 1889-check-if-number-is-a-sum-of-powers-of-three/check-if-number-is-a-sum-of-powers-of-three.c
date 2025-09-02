@@ -1,5 +1,5 @@
 bool checkPowersOfThree(int n) {
-    while(n>1){
+    while(n>0){
         if(n%3==1){
             n--;
         }
