@@ -8,9 +8,7 @@ class Solution {
            n=n/10;
            c++;
         }
-        if(c%2==0){
-            count++;
-        }
+        if(c%2==0) count++;
     }
     return count;
 }
