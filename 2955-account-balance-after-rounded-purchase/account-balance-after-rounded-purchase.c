@@ -1,3 +1,3 @@
 int accountBalanceAfterPurchase(int purchaseAmount) {
-    return 100 -(round(purchaseAmount / 10.0) * 10);
+    return  100 -(round(purchaseAmount / 10.0) * 10);
 }
