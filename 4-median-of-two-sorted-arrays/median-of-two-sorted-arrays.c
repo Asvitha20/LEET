@@ -20,8 +20,8 @@ double findMedianSortedArrays(int* num1, int m, int* num2, int n) {
     if(l%2==0){
         int x=a[med];
         int z=a[med-1];
-        float r=(float)(x+z)/2.0;
-        return r;
+        return (float)(x+z)/2.0;
+       
     }
     return (double)a[med];
 }
