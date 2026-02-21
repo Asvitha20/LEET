@@ -5,9 +5,7 @@ class Solution {
             str[i]=String.valueOf(nums[i]);
         }
         Arrays.sort(str,(a,b)->(b+a).compareTo(a+b));
-        if(str[0].equals("0")){
-            return "0";
-        }
+        if(str[0].equals("0")) return "0";
         StringBuilder sb = new  StringBuilder();
         for(String s:str){
             sb.append(s);
