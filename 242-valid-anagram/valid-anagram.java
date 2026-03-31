@@ -11,9 +11,7 @@ class Solution {
              char ch=t.charAt(i);
             ht.put(ch,ht.getOrDefault(ch,0)+1);
         }
-        if(hs.equals(ht)){
-            return true;
-        }
+        if(hs.equals(ht)) return true;
         return false;
     }
 }
