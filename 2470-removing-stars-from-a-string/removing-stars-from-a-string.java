@@ -4,13 +4,9 @@ class Solution {
         int i=0;
         while(i!=s.length()){
             char ch=s.charAt(i);
-            if(ch!='*'){
-                t.push(ch);
-                i++;
-            }else{
-                t.pop();
-                i++;
-            }
+            if(ch!='*') t.push(ch);
+            else t.pop();
+            i++;
         }
         String res="";
         while(!t.isEmpty()){
