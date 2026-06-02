@@ -14,17 +14,22 @@
  * }
  */
 class Solution {
-    int count=0;
-    public int countNodes(TreeNode root) {
-        preOrder(root);
-        return count;
-    }
-    private void preOrder(TreeNode root){
-        if(root==null){
-            return;
-        }
-        count++;
-        preOrder(root.left);
-        preOrder(root.right);
+    // int count=0;
+    // public int countNodes(TreeNode root) {
+    //     preOrder(root);
+    //     return count;
+    // }
+    // private void preOrder(TreeNode root){
+    //     if(root==null){
+    //         return;
+    //     }
+    //     count++;
+    //     preOrder(root.left);
+    //     preOrder(root.right);
+    // }
+
+    public int countNodes(TreeNode root){
+        if(root==null) return 0;
+        return countNodes(root.left)+countNodes(root.right)+1;
     }
 }
