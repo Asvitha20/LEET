@@ -11,7 +11,8 @@ class Solution {
         if (left != null && right != null) {
             return root;
         }
-
-        return left != null ? left : right;
+        if(left==null) return right;
+        else if(right==null) return left;
+        return root;
     }
 }
