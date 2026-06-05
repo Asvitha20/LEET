@@ -6,7 +6,6 @@ class Solution {
                              int color) {
 
         if(image[sr][sc] == color) return image;
-        // Run the fill function starting at the position given...
         fill(image, sr, sc, color, image[sr][sc]);
         return image;
     }
