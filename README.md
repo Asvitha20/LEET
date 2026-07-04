@@ -1,6 +1,6 @@
 # Asvitha20's Competitive Programming Log
 
-![Total Solved](https://img.shields.io/badge/Total%20Solved-3-7C8CFF)
+![Total Solved](https://img.shields.io/badge/Total%20Solved-5-7C8CFF)
 ![Current Streak](https://img.shields.io/badge/Streak-1%20days-F2A65A)
 
 _Synced automatically by [CodeSync Hub](https://github.com/) — no manual uploads._
@@ -9,7 +9,7 @@ _Synced automatically by [CodeSync Hub](https://github.com/) — no manual uploa
 
 | Platform | Solved |
 |---|---|
-| LeetCode | 3 |
+| LeetCode | 5 |
 
 ## Languages
 
