@@ -1,0 +1,12 @@
+{
+  "platform": "LeetCode",
+  "problemName": "Count Asterisks",
+  "difficulty": "Easy",
+  "topics": [
+    "String"
+  ],
+  "language": "java",
+  "submissionDate": "2026-07-04T17:47:45.000Z",
+  "timeComplexity": null,
+  "spaceComplexity": null
+}
