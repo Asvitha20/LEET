@@ -1,0 +1,14 @@
+{
+  "platform": "LeetCode",
+  "problemName": "Balanced Binary Tree",
+  "difficulty": "Easy",
+  "topics": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "language": "java",
+  "submissionDate": "2026-07-05T06:30:55.000Z",
+  "timeComplexity": null,
+  "spaceComplexity": null
+}
