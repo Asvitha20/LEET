@@ -1,0 +1,23 @@
+{
+  "totalSolved": 1,
+  "solvedByPlatform": {
+    "LeetCode": 1
+  },
+  "solvedByLanguage": {
+    "java": 1
+  },
+  "solvedByDifficulty": {
+    "Easy": 1
+  },
+  "currentStreak": 1,
+  "longestStreak": 1,
+  "lastSyncedProblem": "LeetCode · Balanced Binary Tree",
+  "lastSyncedAt": "2026-07-05T06:31:00.864Z",
+  "solvedDates": [
+    "2026-07-05"
+  ],
+  "solvedCountByDate": {
+    "2026-07-05": 1
+  },
+  "generatedAt": "2026-07-05T06:31:05.389Z"
+}
